@@ -8,51 +8,33 @@
                             </div>
                             <div class="content">
                                 <form>
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="form-group">
-                                                <label>Holder Name</label>
-                                                <input type="text" class="form-control"  placeholder="Holder Name" value="">
-                                            </div>
+                                     <div class="row">
+                                          <div class="col-sm-12">
+                                               <div class="form-group">
+                                                <label> Name</label>
+                                            <select class="form-control">
+                                                <option value="0">John Doe</option>
+                                              <option value="1">Marcus </option>
+                                              <option value="3">Olenga </option>
+                                            </select>
+                                          </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Holder Class</label>
-                                                <input type="text" class="form-control" placeholder="Holder Class" value="">
-                                            </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Holder Email</label>
-                                                <input type="email" class="form-control" placeholder="Email">
-                                            </div>
+                                        <div class="row">
+                                          <div class="col-sm-12">
+                                               <div class="form-group">
+                                                <label> Class</label>
+                                            <select class="form-control">
+                                              <option value="0">1A</option>
+                                              <option value="1">1B </option>
+                                              <option value="3">1C </option>
+                                            </select>
+                                          </div>
                                         </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>HOlder Qualification</label>
-                                                <input type="text" class="form-control" placeholder="Holder Qualification" value="">
-                                            </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Holder Phone Number</label>
-                                                <input type="text" class="form-control" placeholder="()-___-___-___" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label>Holder Date of Birth</label>
-                                                <input type="text" class="form-control" placeholder="___/___/___" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                
-
-                                    <button type="submit" class="btn btn-black btn-fill pull-right">Register</button>
+                                    <button class="btn btn-danger" type="cancel" >Cancel</button>
+    
+                                    <button class="btn btn-primary" type="submit">Submit</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>

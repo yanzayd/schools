@@ -9,50 +9,74 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Teacher Name</label>
-                                                <input type="text" class="form-control"  placeholder="Teacher Name" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Teacher Qualification</label>
-                                                <input type="text" class="form-control" placeholder="Teacher Qualification" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Teacher Email</label>
-                                                <input type="email" class="form-control" placeholder="Email">
+                                                <label> name</label>
+                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Teacher Address</label>
-                                                <input type="text" class="form-control" placeholder="Teacher Address" value="">
-                                            </div>
+                                          <div class="col-sm-12">
+                                               <div class="form-group">
+                                                <label> Qualification</label>
+                                            <select class="form-control">
+                                              <option value="0">Undergraduate</option>
+                                              <option value="1">Graduate </option>
+                                              <option value="3">Postgraduate </option>
+                                            </select>
+                                          </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Teacher Date of Birth</label>
-                                                <input type="text" class="form-control" placeholder="01/01/1900" value="">
-                                            </div>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="row">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Teacher Course</label>
-                                                <input type="text" class="form-control" placeholder="Course" value="">
+                                                <label> Address</label>
+                                                <input type="text" class="form-control"  placeholder="Address" value="">
                                             </div>
                                         </div>
                                     </div>
+                                    <label>Sex</label>
+                                    <ul>
+                                        
+                                          <input type="radio" id="f-option" name="selector">
+                                          <label for="f-option">Male</label>
 
-                                
+                                          <div class="check"></div>
+                                        
+                                          <input type="radio" id="s-option" name="selector">
+                                          <label for="s-option">Female</label>
 
-                                    <button type="submit" class="btn btn-black btn-fill pull-right">Register</button>
+                                          <div class="check"><div class="inside"></div></div>
+                                    </ul>
+                                    
+                                     <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Date Of Birth</label>
+                                                <input type="date " class="form-control"  placeholder="Date Of Birth" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Email</label>
+                                                <input type="email" class="form-control"  placeholder="email" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Phone number</label>
+                                                <input type="email" class="form-control"  placeholder="(243)-999-888-777" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-danger" type="cancel" >Cancel</button>
+    
+                                    <button class="btn btn-primary" type="submit">Submit</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>
@@ -68,7 +92,7 @@
                                      <a href="#">
                                     <img class="avatar border-gray" src="style/img/sidebar-4.jpg" alt="..."/>
 
-                                      <h4 class="title">Teachers<br />
+                                      <h4 class="title">Teacher<br />
                                          <small>...</small>
                                       </h4>
                                     </a>

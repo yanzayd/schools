@@ -9,79 +9,98 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="form-group">
-                                                <label>Student Code</label>
-                                                <input type="text" class="form-control"  placeholder=" Student Code" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Student First Name</label>
-                                                <input type="text" class="form-control" placeholder=" Student Name" value="">
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Student Email</label>
-                                                <input type="email" class="form-control" placeholder=" Email">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Student Class</label>
-                                                <input type="text" class="form-control" placeholder=" Student Class" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label>Student Address</label>
-                                                <input type="text" class="form-control" placeholder=" Student Address" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <div class="form-group">
-                                                <label>Student Date of Birth</label>
-                                                <input type="text" class="form-control" placeholder=" Student Date of Birth" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <div class="form-group">
-                                                <label>Student Father Name</label>
-                                                <input type="text" class="form-control" placeholder=" Student Father Name" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-11">
-                                            <div class="form-group">
-                                                <label>Student Father Job</label>
-                                                <input type="text" class="form-control" placeholder=" Student Father Job" value="">
-                                            </div>
-                                        </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Student Mother Name</label>
-                                                <input type="text" class="form-control" placeholder=" Student Mother Name" value="">
+                                                <label> Code</label>
+                                                <input type="text" class="form-control"  placeholder="Student Code" value="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-10">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Student Mother JOb</label>
-                                                <input type="text" class="form-control" placeholder=" Student MOther Job" value="">
+                                                <label> name</label>
+                                                <input type="text" class="form-control"  placeholder="Student Name" value="">
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row">
+                                          <div class="col-sm-12">
+                                               <div class="form-group">
+                                                <label> Class</label>
+                                            <select class="form-control">
+                                              <option value="0">1A</option>
+                                              <option value="1">2B </option>
+                                              <option value="3">3CG </option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Address</label>
+                                                <input type="text" class="form-control"  placeholder=" Student Address" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <label>Sex</label>
+                                    <ul>
+                                        
+                                          <input type="radio" id="f-option" name="selector">
+                                          <label for="f-option">Male</label>
 
-                                
+                                          <div class="check"></div>
+                                        
+                                          <input type="radio" id="s-option" name="selector">
+                                          <label for="s-option">Female</label>
 
-                                    <button type="submit" class="btn btn-black btn-fill pull-right">Register</button>
+                                          <div class="check"><div class="inside"></div></div>
+                                    </ul>
+                                    
+                                     <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Date Of Birth</label>
+                                                <input type="date " class="form-control"  placeholder="Date Of Birth" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Email</label>
+                                                <input type="email" class="form-control"  placeholder="email" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Father</label>
+                                                <input type="text" class="form-control"  placeholder="Student Father Name" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Mother</label>
+                                                <input type="text" class="form-control"  placeholder="Student Mother Name" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Phone number</label>
+                                                <input type="email" class="form-control"  placeholder="(243)-999-888-777" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-danger" type="cancel" >Cancel</button>
+    
+                                    <button class="btn btn-primary" type="submit">Submit</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>

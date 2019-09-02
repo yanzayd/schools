@@ -9,26 +9,24 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Class Code</label>
+                                                <label> Code</label>
                                                 <input type="text" class="form-control"  placeholder="Class Code" value="">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                    </div>
+                                     <div class="row">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Class Name</label>
-                                                <input type="text" class="form-control" placeholder="Class Name" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label for="Holder Name">Holder Name</label>
-                                                <input type="type" class="form-control" placeholder="Holder Name">
+                                                <label> Name</label>
+                                                <input type="text" class="form-control"  placeholder="Class Name" value="">
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-black btn-fill pull-right">Register</button>
+                                    <button class="btn btn-danger" type="cancel" >Cancel</button>
+    
+                                    <button class="btn btn-primary" type="submit">Submit</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>

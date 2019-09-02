@@ -10,15 +10,15 @@
                             <div class="content table-responsive table-full-width">
                                 <table class="table table-hover table-striped">
                                     <thead>
-                                        <th>Course Name</th>
-                                        <th>Course Code</th>
-                                        <th>Class Code</th>
+                                        <th> Code</th>
+                                        <th>Name </th>
+                                        <th>Class </th>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Programming in java</td>
-                                            <td>C02</td>
-                                            <td>CS001</td>
+                                            <td>2001</td>
+                                            <td>Geographie</td>
+                                             <td>2C</td>
                                     </tbody>
                                 </table>
 

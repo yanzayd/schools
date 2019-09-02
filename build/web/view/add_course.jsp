@@ -9,26 +9,36 @@
                             <div class="content">
                                 <form>
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Courses Name</label>
-                                                <input type="text" class="form-control"  placeholder="Coursee Name" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label>Course Code</label>
-                                                <input type="text" class="form-control" placeholder="Course Code" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label>Class Code</label>
-                                                <input type="text" class="form-control" placeholder="Class Code" value="">
+                                                <label> Code</label>
+                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
                                             </div>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-black btn-fill pull-right">Register</button>
+                                     <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label> Name</label>
+                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="row">
+                                          <div class="col-sm-12">
+                                               <div class="form-group">
+                                                <label> Class</label>
+                                            <select class="form-control">
+                                              <option value="0">1A</option>
+                                              <option value="1">1B </option>
+                                              <option value="3">1C </option>
+                                            </select>
+                                          </div>
+                                        </div>
+                                        </div>
+                                    <button class="btn btn-danger" type="cancel" >Cancel</button>
+    
+                                    <button class="btn btn-primary" type="submit">Submit</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>
