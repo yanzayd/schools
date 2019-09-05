@@ -41,6 +41,16 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link href="style/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <style>
+        .table > thead > tr > th {
+            border-bottom-width: 1px;
+            font-size: 12px;
+            text-transform: none;
+            color: #9A9A9A;
+            font-weight: 400;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
 

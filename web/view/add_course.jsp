@@ -12,7 +12,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label> Code</label>
-                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
+                                                <input type="text" class="form-control"  placeholder="Course Code" value="">
                                             </div>
                                         </div>
                                     </div>
@@ -20,7 +20,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label> Name</label>
-                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
+                                                <input type="text" class="form-control"  placeholder="Course Name" value="">
                                             </div>
                                         </div>
                                     </div>
