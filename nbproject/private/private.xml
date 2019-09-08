@@ -3,14 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/root/NetBeansProjects/schools/web/index.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/side/header.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/view/add_course.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/view/class_list.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/view/holder_list.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/view/student_list.jsp</file>
             <file>file:/root/NetBeansProjects/schools/web/view/teacher_list.jsp</file>
-            <file>file:/root/NetBeansProjects/schools/web/view/course_list.jsp</file>
+            <file>file:/root/NetBeansProjects/schools/web/side/footer.jsp</file>
         </group>
     </open-files>
 </project-private>

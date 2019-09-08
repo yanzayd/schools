@@ -11,8 +11,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label> name</label>
-                                                <input type="text" class="form-control"  placeholder="Coursee Code" value="">
+                                                <label> Name</label>
+                                                <input type="text" class="form-control"  placeholder="Teacher Name" value="">
                                             </div>
                                         </div>
                                     </div>
@@ -49,15 +49,19 @@
 
                                           <div class="check"><div class="inside"></div></div>
                                     </ul>
+                                          <!-- Date -->
+                                         <div class="form-group">
+                                             <label>Birth day</label>
+                                           <div class="input-group date">
+                                             <div class="input-group-addon">
+                                               <i class="fa fa-calendar"></i>
+                                             </div>
+                                             <input name="birth day" type="date" class="form-control pull-right" id="datepicker">
+                                           </div>
+                                           <!-- /.input group -->
+                                         </div>
+                                         <!-- /.form group -->
                                     
-                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label> Date Of Birth</label>
-                                                <input type="date " class="form-control"  placeholder="Date Of Birth" value="">
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
@@ -114,3 +118,5 @@
                 </div>
             </div>
         </div>
+
+           

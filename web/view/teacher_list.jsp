@@ -24,7 +24,7 @@
                                             <td>Post-Graduate</td>
                                             <td>kigali/kagugu</td>
                                             <td>Male</td>
-                                            <td>messi@gmail.com/td>
+                                            <td>messi@gmail.com</td>
                                             <td>14/08/1987</td>
                                             <td>+243993877999</td>
                                         </tr>

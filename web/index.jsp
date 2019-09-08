@@ -13,11 +13,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title> School by Bedel</title>
-
+     
+        
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-
+<!--datetime-->
+<script src="style/jquery.datetimepicker.full.js" type="text/javascript"></script>
+<link href="jquery.datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery.js" type="text/javascript"></script>
+    <!--fin-->
+    
     <!-- Bootstrap core CSS     -->
     
     
@@ -50,7 +56,20 @@
             font-weight: 400;
             padding-bottom: 5px;
         }
+        
+         
+    
+        
     </style>
+    <style> 
+        .card label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+    </style>
+    
+    
 </head>
 <body>
 
@@ -207,6 +226,8 @@
 
 </body>
 
+
+
     <!--   Core JS Files   -->
     <script src="style/js/jquery.3.2.1.min.js" type="text/javascript"></script>
 	<script src="style/js/bootstrap.min.js" type="text/javascript"></script>
@@ -223,5 +244,14 @@
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="style/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
         <!--date-->
+        
+        
+        <script>
+            
+            $("#datetime").datetimepicker();
+        </script>
+        
+        
+        
 </html>
 
